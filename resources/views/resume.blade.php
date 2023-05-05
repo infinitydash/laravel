@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Index</title>
+  <title>Resume</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -48,7 +48,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="{{ url('/') }}">Home</a></li>
             <li><a href="{{ url('/about') }}">About</a></li>
             <li><a href="{{ url('/resume') }}">Curriculo</a></li>
             <li><a href="{{ url('/services') }}">Serviços</a></li>
@@ -68,14 +68,58 @@
 
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Vítor Mello</h1>
-      <h2>Eu sou um estudante de tecnico em informática no IFMG Campus Formiga</h2>
-      <a href="{{ url('/about') }}" class="btn-about">Sobre mim</a>
-    </div>
-  </section><!-- End Hero -->
+  <main id="main">
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Curriculo</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumario</h3>
+            <div class="resume-item pb-0">
+              <h4>Vítor Mello</h4>
+              <p><em>Sei um pouquinho de muita coisa e muita coisa de um pouquinho</em></p>
+              <p>
+              <ul>
+                <li>Formiga MG </li>
+                <li>(37) 99140-2860</li>
+                <li>vitormellofrancovieirafonseca@gmail.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Educação</h3>
+            <div class="resume-item">
+              <h4>Estudante</h4>
+              <h5>2021 - 2023</h5>
+              <p><em>IFMG Campus Formiga</em></p>
+              <p>Um lugar joia se voçê desconsiderar o Paim b(￣▽￣)d</p>
+            </div>
+            <div class="resume-item">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Esperiencia profissional</h3>
+            <div class="resume-item">
+              <h4>Se tudo der certo o Roger da emprego pra gente</h4>
+              <h5>( $ _ $ )</h5>
+            </div>
+            <div class="resume-item">
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
